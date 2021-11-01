@@ -1,4 +1,4 @@
-name: interiordefine-cogent-js
+name: cogent-js
 
 on:
   push:
