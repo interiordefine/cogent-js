@@ -18,5 +18,6 @@ jobs:
           scope: '@interiordefine'
       - run: npm install
       - run: npm build
+      - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.ID_GITHUB_TOKEN}}
