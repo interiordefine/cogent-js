@@ -1,6 +1,6 @@
 {
   "name": "@interiordefine/cogent-js",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A simple and elegant way to build urls for your REST API",
   "main": "build/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "git://github.com/interiordefine/cogent-js.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "moduleDirectories": [
     "src"
