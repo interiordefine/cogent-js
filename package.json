@@ -4,7 +4,7 @@
   "description": "A simple and elegant way to build urls for your REST API",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d build",
+    "build": "babel src -d build --copy-files",
     "prepare": "yarn build",
     "test": "jest"
   },
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:joelwmale/cogent-js.git"
+    "url": "git@github.com:interiordefine/cogent-js.git"
   },
   "moduleDirectories": [
     "src"
@@ -32,9 +32,9 @@
   "author": "Joel Male",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joelwmale/cogent-js/issues"
+    "url": "https://github.com/interiordefine/cogent-js/issues"
   },
-  "homepage": "https://github.com/joelwmale/cogent-js#readme",
+  "homepage": "https://github.com/interiordefine/cogent-js#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
