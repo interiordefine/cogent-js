@@ -31,6 +31,6 @@ jobs:
       - run: yarn version --minor
       - run: yarn build
       - run: git push --tags && git push
-      - run: yarn publish
+      - run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.ID_GITHUB_TOKEN}}
